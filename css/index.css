@@ -1,0 +1,151 @@
+.text-orange {
+    color: #ee9f0f !important;
+}
+
+.text-royal-blue {
+    color: #4169E1;
+}
+
+.bg-orange {
+    background-color: #ee9f0f !important;
+}
+
+.bg-alice-blue {
+    background-color: #F0F8FF;
+}
+
+.font-weight-500 {
+    font-weight: 500;
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+/* HEAD */
+
+.form-control {
+    border-right: 0;
+    border-color: #ced4da;
+    padding-right: 0;
+}
+
+.input-group-text {
+    background-color: #fff;
+}
+
+::placeholder {
+    color: #ced4da !important;
+}
+
+.nav-item .btn svg {
+    color: #ced4da;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #ced4da;
+}
+
+.avatar img {
+    border-radius: 50%;
+}
+
+.active button {
+    color: orange !important;
+}
+
+.nav-item.active button svg {
+    color: orange;
+}
+
+/* MAIN */
+
+/* BANNER */
+
+.background {
+    background-image: url('/images/Ryuuko.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 110%;
+}
+
+.btn-group .btn {
+    border-color: #ADD8E6;
+}
+
+.btn-group .btn.btn-sm {
+    font-size: 0.775rem;
+}
+
+.btn-group .btn svg {
+    color: #4169E1;
+}
+
+.btn-group .card {
+    border: 0;
+}
+
+.btn-group .card button svg {
+    color: white;
+}
+
+.btn-group .card-left {
+    background: linear-gradient(to top, #0f2027, #203a43, #2c5364);
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.btn-group .card-right {
+    background: linear-gradient(to top, #f12711, #f5af19);
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+/* BUTTON BAR */
+
+a.active {
+    color: orange !important;
+    border-bottom: 2px solid orange !important;
+}
+
+.btn-bar .btn {
+    border: 0;
+    border-radius: 0;
+    /* border-right: 1px solid #ADD8E6; */
+}
+
+svg.v-line {
+    padding-top: .4rem;
+    stroke: #ced4da;
+    stroke-width:2;
+}
+
+.btn-group.active .btn {
+    border-color: orange !important;
+}
+
+.btn-group.active .btn svg {
+    color: orange;
+}
+
+.btn-group .btn svg {
+    color: #ced4da;
+}
+
+/* CAROUSEL CARDS */
+
+.carousel-indicators li {
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+}
+
+.card .card-body p {
+    font-size: 90%;
+}
+
+.card-body .card-group .card {
+    background-color: #ced4da;
+}
