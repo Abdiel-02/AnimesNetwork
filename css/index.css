@@ -143,7 +143,11 @@ svg.v-line {
 }
 
 .card .card-body p {
-    font-size: 90%;
+    font-size: 85%;
+}
+
+.card .card-body p.card-title {
+    font-size: 95%;
 }
 
 .card-body .card-group .card {
