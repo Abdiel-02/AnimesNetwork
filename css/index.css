@@ -1,5 +1,5 @@
 .text-orange {
-    color: #ee9f0f !important;
+    color: #f1902e !important;
 }
 
 .text-royal-blue {
@@ -7,7 +7,7 @@
 }
 
 .bg-orange {
-    background-color: #ee9f0f !important;
+    background-color: #f1902e !important;
 }
 
 .bg-alice-blue {
@@ -69,6 +69,10 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 110%;
+}
+
+h2.line-height-1 {
+    line-height: 1;
 }
 
 .btn-group .btn {
