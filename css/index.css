@@ -1,5 +1,5 @@
 .text-orange {
-    color: #f1902e !important;
+    color: #ee851a !important;
 }
 
 .text-royal-blue {
@@ -7,7 +7,7 @@
 }
 
 .bg-orange {
-    background-color: #f1902e !important;
+    background-color: #ee851a !important;
 }
 
 .bg-alice-blue {
@@ -52,11 +52,11 @@
 }
 
 .active button {
-    color: orange !important;
+    color: #f0974a !important;
 }
 
 .nav-item.active button svg {
-    color: orange;
+    color: #f0974a;
 }
 
 /* MAIN */
@@ -107,11 +107,15 @@ h2.line-height-1 {
     border-bottom-left-radius: 0;
 }
 
+.contend {
+    margin-bottom: 40rem !important;
+}
+
 /* BUTTON BAR */
 
 a.active {
-    color: orange !important;
-    border-bottom: 2px solid orange !important;
+    color: #ee851a !important;
+    border-bottom: 2px solid #ee851a !important;
 }
 
 .btn-bar .btn {
@@ -127,11 +131,11 @@ svg.v-line {
 }
 
 .btn-group.active .btn {
-    border-color: orange !important;
+    border-color: #ee851a !important;
 }
 
 .btn-group.active .btn svg {
-    color: orange;
+    color: #ee851a;
 }
 
 .btn-group .btn svg {
@@ -146,7 +150,7 @@ svg.v-line {
     border-radius: 100%;
 }
 
-.card .card-body p {
+.card .card-body p.genre {
     font-size: 85%;
 }
 
@@ -155,5 +159,16 @@ svg.v-line {
 }
 
 .card-body .card-group .card {
-    background-color: #ced4da;
+    background-color: #f5f5f5;
+}
+
+/* HORIZONTAL CARDS */
+
+.card-body p.card-text {
+    -webkit-line-clamp: 3;
+    overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    font-size: 85%;
 }
