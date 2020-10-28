@@ -4,7 +4,6 @@ html {
 
 main {
     margin-top: 91px;
-    margin-bottom: 43rem;
 }
 
 .text-orange {
@@ -130,7 +129,6 @@ a.active {
 .btn-bar .btn {
     border: 0;
     border-radius: 0;
-    /* border-right: 1px solid #ADD8E6; */
 }
 
 svg.v-line {
@@ -236,5 +234,22 @@ p.jumbotron-text {
     box-shadow: none;
 }
 
-/* MOST RECENT POLLS */
+/* FOOTER */
 
+footer {
+    background-image: linear-gradient(to bottom, #303030, #2c2c2c, #292929, #252525, #222222);
+    color: #6c757d;
+}
+
+.sp-font {
+    font-family: 'Hind Vadodara', sans-serif !important;
+}
+
+h2 strong {    
+    color: #ee851a;
+}
+
+footer span {
+    letter-spacing: 9px;
+    padding-left: 2rem;
+}
