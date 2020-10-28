@@ -4,6 +4,7 @@ html {
 
 main {
     margin-top: 91px;
+    margin-bottom: 43rem;
 }
 
 .text-orange {
@@ -234,3 +235,6 @@ p.jumbotron-text {
 .btn.btn-follow:focus {
     box-shadow: none;
 }
+
+/* MOST RECENT POLLS */
+
