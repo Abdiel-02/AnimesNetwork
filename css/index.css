@@ -162,8 +162,12 @@ svg.v-line {
     font-size: 95%;
 }
 
-.card-body .card-group .card {
+.card-group .card {
     background-color: #f5f5f5;
+}
+
+.card-group .card p {
+    font-size: 90%;
 }
 
 /* RECENT NEWS */
@@ -209,4 +213,12 @@ p.jumbotron-text {
 
 .media-body p {
     font-size: 80%;
+}
+
+/* ANIME OF THE WEEK */
+
+.btn-follow {
+    color: #ee851a;
+    font-weight: 500;
+    border: 2px solid #ee851a ;
 }
