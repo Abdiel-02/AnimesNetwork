@@ -30,6 +30,10 @@ main {
     box-shadow: none;
 }
 
+.mt-45 {
+    padding-top: 2rem !important;
+}
+
 /* HEAD */
 
 .form-control {
@@ -217,8 +221,16 @@ p.jumbotron-text {
 
 /* ANIME OF THE WEEK */
 
-.btn-follow {
+.btn.btn-follow {
     color: #ee851a;
     font-weight: 500;
-    border: 2px solid #ee851a ;
+    border: 2px solid #ee851a;
+}
+
+.btn.btn-follow:focus {
+    color: #ee851a;
+}
+
+.btn.btn-follow:focus {
+    box-shadow: none;
 }
