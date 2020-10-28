@@ -1,3 +1,11 @@
+html {
+    height: 100%;
+}
+
+main {
+    margin-top: 91px;
+}
+
 .text-orange {
     color: #ee851a !important;
 }
@@ -182,4 +190,23 @@ p.jumbotron-text {
 
 .dropdown-divider {
     border-top: 1px solid #cdd4db!important;
+}
+
+/* RECENT EPISODES AND RECOMENDED */
+
+.nav-tabs .nav-item .nav-link {
+    font-size: 90%;
+    background-color: #f8f9fa;
+}
+
+.nav-tabs .nav-link.active {
+    border: 0;
+}
+
+.nav-tabs .nav-link:hover {
+    border: 0;
+}
+
+.media-body p {
+    font-size: 80%;
 }
