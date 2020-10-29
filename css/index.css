@@ -173,6 +173,20 @@ svg.v-line {
     font-size: 90%;
 }
 
+a.custom-icon {
+    position: absolute;
+    top: -8px;
+    right: -6px;
+    align-self: flex-end;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    z-index: 10;
+}
+
 /* RECENT NEWS */
 
 .card-body p.card-text {
@@ -232,6 +246,14 @@ p.jumbotron-text {
 
 .btn.btn-follow:focus {
     box-shadow: none;
+}
+
+/* MOST RECENT VIDEOS */
+.play {
+    position: absolute;
+    left: 50%;
+    right: 0;
+    transform: translate(-95%);
 }
 
 /* FOOTER */
