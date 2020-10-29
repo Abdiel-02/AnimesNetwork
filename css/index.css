@@ -3,7 +3,7 @@ html {
 }
 
 main {
-    margin-top: 91px;
+    margin-top: 82px;
 }
 
 .text-orange {
@@ -35,6 +35,20 @@ main {
 }
 
 /* HEAD */
+
+.navbar-brand {
+    background-image: linear-gradient(to bottom, #303030, #2c2c2c, #292929, #252525, #222222);
+    color: #6c757d;
+}
+
+h1 strong {    
+    color: #ee851a;
+}
+
+.navbar-brand span {
+    letter-spacing: 13px;
+    padding-left: 2.4rem;
+}
 
 .form-control {
     border-right: 0;
